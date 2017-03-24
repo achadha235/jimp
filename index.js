@@ -1,4 +1,4 @@
-if (process.env.ENVIRONMENT !== "BROWSER") var FS = require("fs");
+if (process.env.ENVIRONMENT !== "BROWSER") var FS = require('react-native-fs');
 var PNG = require("pngjs").PNG;
 var JPEG = require("jpeg-js");
 var BMP = require("bmp-js");
